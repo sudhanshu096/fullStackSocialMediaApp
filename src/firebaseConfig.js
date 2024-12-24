@@ -10,18 +10,24 @@ import {getFirestore, collection} from 'firebase/firestore'
 
 // Your web app's Firebase configuration
 // Import the functions you need from the SDKs you need
+
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
+
+// Your web app's Firebase configuration
+// Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
 // TODO: Add SDKs for Firebase products that you want to use
 // https://firebase.google.com/docs/web/setup#available-libraries
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyBNkTuzuWIvNmohQm_hC_4YOOT00nnczY0",
-  authDomain: "fir-chat-app-b6723.firebaseapp.com",
-  projectId: "fir-chat-app-b6723",
-  storageBucket: "fir-chat-app-b6723.firebasestorage.app",
-  messagingSenderId: "900524593871",
-  appId: "1:900524593871:web:699f4a196a43a6bca89dba"
+  apiKey: "AIzaSyAMvX4sz_9xNzgGRFBrW5Y4mZojaP1nz3g",
+  authDomain: "fir-chat-app-212ce.firebaseapp.com",
+  projectId: "fir-chat-app-212ce",
+  storageBucket: "fir-chat-app-212ce.firebasestorage.app",
+  messagingSenderId: "1018248873242",
+  appId: "1:1018248873242:web:dec9c0b3513a5c8e5818a3"
 };
 
 // Initialize Firebase
